@@ -297,7 +297,7 @@
             (function blink() {
                 for (i = 1; i < 5; ++i) {
                     item = $("#clickable-" + i);
-                    if (item.attr('animating') == 'true') {
+                    if (item.attr('animating') == 'true' && item.queue().length < 2) {
                         item.fadeOut(500).fadeIn(500, blink);
                     }
                 }
