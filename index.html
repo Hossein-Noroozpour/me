@@ -212,8 +212,8 @@
             </p>
             <ul>
                 <li>
-                    <strong>Founder of Gearoenix software </strong>
                     <span id="clickable-1" class="clickable" animating="true"> &#9660; </span>
+                    <strong>Founder of Gearoenix software </strong>
                     <div class="collapsable">
                         <p>
                             Sinse 2013 I was about creating a game engine. I've spended and I'm spending my spare time on it. During this years I had developed several graphic renderer.
@@ -224,8 +224,8 @@
                     </div>
                 </li>
                 <li>
-                    <strong>Software Developer of a 3D printer editor software in <a href="http://www.ravanertebat.com/">AEC</a> </strong>
                     <span id="clickable-2" class="clickable" animating="true"> &#9660; </span>
+                    <strong>Software Developer of a 3D printer editor software in <a href="http://www.ravanertebat.com/">AEC</a> </strong>
                     <div class="collapsable">
                         <p>
                             It was a 3D software for visualizing a printee object and showing its weak spots for placing and generating support for them, and slicing at the end, it was written by Qt5, C++14, Go-lang and OpenGL.
@@ -251,8 +251,8 @@
                     </div>
                 </li>
                 <li>
-                    <strong>Ex-cofounder of Hexy Pixel </strong>
                     <span id="clickable-4" class="clickable" animating="true"> &#9660; </span>
+                    <strong>Ex-cofounder of Hexy Pixel </strong>
                     <div class="collapsable">
                         <p>
                             I was cofounder in it, at begining our name was Rayan Afzar Kabir after we got accepted by an accelerator our name changed to HexyPixel (for better marketing and branding). We shipped two title 1- <a href="https://cafebazaar.ir/app/com.kabir.roll/?l=en">Rolling Lazies</a>,
@@ -271,8 +271,8 @@
                     </div>
                 </li>
                 <li>
-                    <strong>Others </strong>
                     <span id="clickable-3" class="clickable" animating="true"> &#9660; </span>
+                    <strong>Others </strong>
                     <div class="collapsable">
                         <p>
                             As I said, I started my programming career at 2011,
@@ -306,7 +306,7 @@
                 $(this).attr('animating', false);
                 $(this).finish();
                 $header = $(this);
-                $content = $header.next();
+                $content = $header.next().next();
                 $content.slideToggle(500, function() {
                     $header.text(function() {
                         return $content.is(":visible") ? "\u25b2" : '\u25bc';
